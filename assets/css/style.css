@@ -14,22 +14,54 @@
     color: #212121;
  }
 
- .header {
-    font-size: 150%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 25px 0;
-    padding: 0 60px 0 30px;
-
+ .container {
+   margin: auto;
+   margin-top: 150px;
+   width: 50%;
+   border-radius: 6px;
+   border: solid 2px black;
  }
 
- #input {
-   width:500px;
+ #newitem {
+   position: relative;
+   padding: 30px 20px;
+ }
+
+ #newitem input {
+   position: relative;
+   width:75%;
+   height: 45px;
    font-size: 100%;
    border-radius: 6px;
-   border: solid 4px #212121;
+   border: #d09fe9 solid 3px;
    font-family: 'Nanum Pen Script', cursive;
    padding: 4px;
+}
+
+#newitem button {
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    background-color: white;
+    border: #d09fe9 solid 3px;
+    color: #212121;
+    font-weight: bold;
+    border-radius: 6px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 100%;
+}
+
+#newitem button:hover {
+    background-color: #d2ffcf;
+}
+
+#tasks {
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    padding: 30px 20px;
+    border-radius: 6px;
+    background-color: white;
+    border: #d09fe9 solid 3px;
 }
