@@ -35,11 +35,11 @@
    position: relative;
    width:75%;
    height: 45px;
-   font-size: 100%;
+   font-size: 25px;
    border-radius: 6px;
    border: #d09fe9 solid 3px;
    font-family: 'Nanum Pen Script', cursive;
-   padding: 4px;
+   padding: 10px;
 }
 
 #newitem button {
@@ -53,7 +53,7 @@
     font-weight: bold;
     border-radius: 6px;
     font-family: 'Nanum Pen Script', cursive;
-    font-size: 100%;
+    font-size: 25px;
 }
 
 #newitem button:hover {
@@ -71,5 +71,7 @@
 }
 
 .task {
-  background-color: red;
+  background-color: white;
+  font-size: 40px;
+  text-transform: capitalize;
 }
