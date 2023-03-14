@@ -39,7 +39,8 @@
    border-radius: 6px;
    border: #d09fe9 solid 3px;
    font-family: 'Nanum Pen Script', cursive;
-   padding: 10px;
+   padding: 8px;
+   text-transform: capitalize;
 }
 
 #newitem button {
@@ -58,20 +59,18 @@
 
 #newitem button:hover {
     background-color: #d2ffcf;
-}
-
-#tasks {
-    width: 100%;
-    position: relative;
-    margin-top: 10px;
-    padding: 30px 20px;
-    border-radius: 6px;
-    background-color: white;
-    border: #d09fe9 solid 3px;
+    color: #d09fe9;
+    border: #212121 solid 3px;
 }
 
 .task {
   background-color: white;
-  font-size: 40px;
+  height: 45px;
+  font-size: 30px;
   text-transform: capitalize;
+  border-radius: 6px;
+  border: #d09fe9 solid 3px;
+  margin-bottom: 10px;
+  padding: 5px 0 5px 8px;
+  width: 100%;
 }
