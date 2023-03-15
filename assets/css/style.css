@@ -41,6 +41,7 @@
    font-family: 'Nanum Pen Script', cursive;
    padding: 8px;
    text-transform: capitalize;
+   margin-bottom: 30px;
 }
 
 #newitem button {
