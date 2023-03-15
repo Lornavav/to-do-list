@@ -7,7 +7,7 @@ input.addEventListener("keydown", function(event){
     if(event.key === "Enter")
     addItem();
 })
-//Funtion for adding a to do task 
+//Funtion for adding a to do task to the list
 function addItem(){
     let divParent = document.createElement("div");
     let divChild = document.createElement("div");
