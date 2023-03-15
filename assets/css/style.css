@@ -63,14 +63,16 @@
     border: #212121 solid 3px;
 }
 
-.task {
+.item {
+  display: flex;
+  justify-content: space-between;
   background-color: white;
-  height: 45px;
+  height: auto;
   font-size: 30px;
   text-transform: capitalize;
   border-radius: 6px;
   border: #d09fe9 solid 3px;
   margin-bottom: 10px;
-  padding: 5px 0 5px 8px;
+  padding: 10px;
   width: 100%;
 }

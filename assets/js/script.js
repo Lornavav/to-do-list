@@ -1,17 +1,33 @@
-/* 
-click event for adding to do item to the to do list
-alert message for empty input
-*/
-document.getElementById("additem").onclick = function(){
-    if(document.getElementById("input").value.length ==0){
-        alert("Add to do item to proceed")
-    } else{
-        document.getElementById("tasks").innerHTML += `
-            <div class ="task">
-                <span id="taskname">
-                    ${document.getElementById("input").value}
-                </span>
-            </div>    
-        `;
-    }
+let tasks = document.getElementById("newitem");
+let input = document.getElementById("input");
+let removeTask = document.getElementById("remove");
+
+input.addEventListener("keydown", function(event){
+    if(event.key === "Enter")
+    addItem();
+})
+
+function addItem(){
+    let divParent = document.createElement("div");
+    let divChild = document.createElement("div");
+    let remove = document.createElement("i");
+
+    divParent.className = "item";
+    divParent.innerHTML = "<div>"+input.value+"</div>";
+
+    remove.className = "fa-regular fa-circle-xmark";
+    remove.addEventListener("click", function(){
+        divParent.remove();
+    })
+
+    divChild.appendChild(remove);
+
+    divParent.appendChild(divChild);
+
+    tasks.appendChild(divParent);
+
+    input.value = "";
+
 }
+
+
