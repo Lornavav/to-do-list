@@ -30,5 +30,20 @@ function addItem(){
     input.value = "";
 
 }
+//Pop up message
+/*let popUp = document.getElementById("popup");
 
+function open() {
+    popUp.style.display = "block";
+}*/
+
+function hide() {
+    document.getElementById("popup").style.display = "none";
+}
+
+/*window.onclick = function(event) {
+    if(event.target == popUp) {
+        popUp.style.display = "block";
+    }
+}*/
 

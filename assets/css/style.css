@@ -78,7 +78,7 @@
   width: 100%;
 }
 /*pop up styling*/
-.popup {
+#popup {
   background-color: white;
   position: absolute;
   transform: translate(-50%,-50%);
@@ -93,19 +93,11 @@
   color: #da83ae;
   padding: 20px;
 }
-.popup button {
-  display: block;
-  margin: 0 0 20px auto;
-  background-color: transparent;
-  font-size: 25px;
-  color: lightgrey;
-  border: none;
-}
-.popup p {
+#popup p {
   font-size: 30px;
   color: #222222;
 }
-a {
+#popup button {
   display: block;
   width: 20%;
   position: relative;
@@ -113,11 +105,11 @@ a {
   background-color: #da83ae;
   text-decoration: none;
   border-radius: 6px;
-  font-size: 30px;
+  font-size: 25px;
   border: #222222 solid 2px;
   color: white;
 }
-a:hover {
+#popup button:hover {
   background-color: white;
   color: #da83ae;
   border: #222222 solid 2px;
