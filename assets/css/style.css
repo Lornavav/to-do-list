@@ -115,5 +115,6 @@
   border: #222222 solid 2px;
 }
 #date {
-  color: black;
+  font-size: 50px;
+  padding-left: 30px;
 }
