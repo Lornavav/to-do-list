@@ -15,7 +15,7 @@ function addItem(){
 
     divParent.className = "item";
     divParent.innerHTML = "<div>"+input.value+"</div>";
-
+    //Removng a to do list item witht X icon
     remove.className = "fa-regular fa-circle-xmark";
     remove.addEventListener("click", function(){
         divParent.remove();
@@ -28,22 +28,17 @@ function addItem(){
     tasks.appendChild(divParent);
     //Clear input field after each entry
     input.value = "";
-
 }
-//Pop up message
-/*let popUp = document.getElementById("popup");
-
-function open() {
-    popUp.style.display = "block";
-}*/
-
+//Function to close pop up message
 function hide() {
     document.getElementById("popup").style.display = "none";
 }
-
-/*window.onclick = function(event) {
-    if(event.target == popUp) {
-        popUp.style.display = "block";
-    }
-}*/
-
+//Function to display date
+function displayDate() {
+    let date = new Date()
+    date = date.toString().split(" ")
+    document.getElementById("date").innerHTML = date[1] + " " + date[2] + " " + date[3]
+}
+window.onload = function(){
+    displayDate()
+}
