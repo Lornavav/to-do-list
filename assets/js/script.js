@@ -15,6 +15,10 @@ function addItem(){
     //Adding input text to parent div
     divParent.className = "item";
     divParent.innerHTML = "<div>"+input.value+"</div>";
+    //Event listner for striking through a completed list item
+    divParent.addEventListener("click", function(){
+        divParent.style.textDecoration = "line-through";
+    })
     //Add alert for empty input field
     if (input.value === "") {
         alert("Please add to do item to continue!");
