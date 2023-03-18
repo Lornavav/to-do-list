@@ -15,6 +15,11 @@ function addItem(){
 
     divParent.className = "item";
     divParent.innerHTML = "<div>"+input.value+"</div>";
+    //Add alert for empty input field
+    if (input.value === "") {
+        alert("Please add to do item to continue!");
+        return false;
+    }
     //Removng a to do list item witht X icon
     remove.className = "fa-regular fa-circle-xmark";
     remove.addEventListener("click", function(){
