@@ -7,12 +7,12 @@ input.addEventListener("keydown", function(event){
     if(event.key === "Enter")
     addItem();
 })
-//Funtion for adding a to do task to the list
+//Funtion for adding to & managing to do list
 function addItem(){
     let divParent = document.createElement("div");
     let divChild = document.createElement("div");
     let remove = document.createElement("i");
-
+    //Adding input text to parent div
     divParent.className = "item";
     divParent.innerHTML = "<div>"+input.value+"</div>";
     //Add alert for empty input field
@@ -25,11 +25,9 @@ function addItem(){
     remove.addEventListener("click", function(){
         divParent.remove();
     })
-
+    //Add children to parent div
     divChild.appendChild(remove);
-
     divParent.appendChild(divChild);
-
     tasks.appendChild(divParent);
     //Clear input field after each entry
     input.value = "";
