@@ -182,7 +182,11 @@
 @media screen and (max-width: 400px) {
   #newitem button {
     width: 20%;
-    position: fixed;
+    margin-right: 10px;
+  }
+  #newitem input {
+    width: 70%;
+    margin-left: 10px;
   }
   .container {
     margin-top: 60px;
@@ -192,6 +196,10 @@
 @media screen and (max-width: 280px) {
   .info {
     margin: 10px;
+  }
+  .item {
+    width: 90%;
+    margin: auto;
   }
 }
 /* for screens size from 680px in height and down */
