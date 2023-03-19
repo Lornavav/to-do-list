@@ -178,8 +178,8 @@
     padding: 5px;
   }
 }
-/* for screens size from 400px wide and down */
-@media screen and (max-width: 400px) {
+/* for screens size from 415px wide and down */
+@media screen and (max-width: 415px) {
   #newitem button {
     width: 20%;
     margin-right: 10px;
