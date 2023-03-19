@@ -194,3 +194,11 @@
     margin: 10px;
   }
 }
+/* for screens size from 680px in height and down */
+@media screen and (max-height: 680px) {
+  .info {
+   margin: 15px;
+   padding: 0;
+   line-height: 30px;
+  } 
+ }
