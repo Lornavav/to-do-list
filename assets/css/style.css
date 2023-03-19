@@ -46,7 +46,7 @@
 
 #newitem button {
     position: relative;
-    width: 5%;
+    width: 20%;
     height: 45px;
     background-color: white;
     border: #d09fe9 solid 3px;
@@ -75,43 +75,6 @@
   margin-bottom: 10px;
   padding: 10px;
   width: 80%;
-}
-/*pop up styling*/
-/*#popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  padding: 15px;
-}
-#popup p {
-  display: flex;
-  font-size: 25px;
-  color: #222222;
-}*/
-.info button {
-  display: inline-block;
-  text-decoration: none;
-  position: relative;
-  margin: 10px auto;
-  background-color: #da83ae;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 25px;
-  border: #222222 solid 3px;
-  color: white;
-  cursor: pointer;
-  padding: 5px;
-}
-.info button:hover {
-  background-color: white;
-  color: #da83ae;
-  border: #222222 solid 3px;
 }
 #date {
   font-size: 50px;
@@ -144,4 +107,23 @@
 }
 .info p {
   font-size: 30px;
+}
+.info button {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  margin: 10px auto;
+  background-color: #da83ae;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 25px;
+  border: #222222 solid 3px;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+.info button:hover {
+  background-color: white;
+  color: #da83ae;
+  border: #222222 solid 3px;
 }
