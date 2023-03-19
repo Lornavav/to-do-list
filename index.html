@@ -17,16 +17,28 @@
              <button onclick="addItem()"><i class="fa-solid fa-plus"></i></button>
         </div>
     </div>
-    
-    <div id="popup">
-        <h2>Welcome to your to do list </h2>
+    <section>
+        <div id="modal">
+            <div>
+                <div class="info">
+                    <h2 class="modaltitle">Welcome</h2>
+                    <p>This to do list application allows you to create a to do list. 
+                       Add a to do item into the text box and click the add button. 
+                       The to list will start to populate below. 
+                       Use the 'X' to remove a to do item. 
+                       Once you have completed a task you can cross it off by clicking on it.
+                    </p>
+                    <button onclick="hide()">Get Started</button>
+        </div>    
+    </section>
+    <!--<div id="popup">
+        <h4>Welcome to your to do list </h4>
         <p>
-            Use this to do list do get your tasks done. Simply type your to do item into the input field and click 'Add Item'. <br>
-            Your list will start to populate. Use the 'X' to delete a task.
+            Use this to do list do get your tasks done. Simply type your to do item into the input field and click the + button.
+            Your list will start to populate. Use the 'X' to delete a task. Click on the task once it has been completed to strike it off the list.
         </p>
         <button onclick="hide()">Get Started</i></button>
-        <!--<a href="#">Get Started</a>-->
-    </div>
+    </div>-->
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/92dd2e7f78.js" crossorigin="anonymous"></script>
     <!--js file-->

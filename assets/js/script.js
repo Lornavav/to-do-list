@@ -38,7 +38,7 @@ function addItem(){
 }
 //Function to close pop up message
 function hide() {
-    document.getElementById("popup").style.display = "none";
+    document.getElementById("modal").style.display = "none";
 }
 //Function to display date
 function displayDate() {
