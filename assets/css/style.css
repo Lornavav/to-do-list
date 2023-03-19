@@ -21,7 +21,7 @@
 
  .container {
    margin: auto;
-   margin-top: 150px;
+   margin-top: 120px;
    width: 50%;
    border-radius: 6px;
  }
@@ -46,6 +46,7 @@
 
 #newitem button {
     position: relative;
+    float:right;
     width: 20%;
     height: 45px;
     background-color: white;
@@ -74,7 +75,7 @@
   border: #d09fe9 solid 3px;
   margin-bottom: 10px;
   padding: 10px;
-  width: 80%;
+  width: 100%;
 }
 #date {
   font-size: 50px;
@@ -90,6 +91,7 @@
   height: 100%;
 }
 .info {
+  position: static;
   border: 5px solid #da83ae;
   background-color: white;
   border-radius: 6px;
@@ -126,4 +128,54 @@
   background-color: white;
   color: #da83ae;
   border: #222222 solid 3px;
+}
+/* Media queries for mobile tablet and smaller screens*/
+/* for screens size from 605px wide and down */
+@media screen and (max-width: 605px) {
+  h1 {
+    font-size: 40px;
+  }
+  #date {
+    font-size: 40px;
+  }
+ .container {
+  margin-top: 80px;
+  width: 100%;
+ }
+ #newitem input {
+  width: 75%;
+  margin-left: 10px;
+ }
+ #newitem button {
+  width: 20%;
+  margin-right: 10px;
+ }
+ .item {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 96%
+ }
+}
+/* for screens size from 464px wide and down */
+@media screen and (max-width: 464px) {
+  .info {
+    margin: 25px 25px 25px;
+    padding: 5px;
+  }
+}
+/* for screens size from 400px wide and down */
+@media screen and (max-width: 400px) {
+  #newitem button {
+    width: 20%;
+    position: fixed;
+  }
+  .container {
+    margin-top: 60px;
+  }
+}
+/* for screens size from 280px wide and down */
+@media screen and (max-width: 280px) {
+  .info {
+    margin: 10px;
+  }
 }
