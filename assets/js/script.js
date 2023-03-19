@@ -7,7 +7,10 @@ input.addEventListener("keydown", function(event){
     if(event.key === "Enter")
     addItem();
 })
-//Funtion for adding to & managing to do list
+/*
+Funtion for adding to & managing to do list
+Code and inspiration take from Web Dev Tutorials and adapted https://www.youtube.com/watch?v=H5tuwAO-_Kg
+*/
 function addItem(){
     let divParent = document.createElement("div");
     let divChild = document.createElement("div");
@@ -40,7 +43,9 @@ function addItem(){
 function hide() {
     document.getElementById("modal").style.display = "none";
 }
-//Function to display date
+/*Function to display date
+Code and inspiration take from Web Dev Tutorials and adapted https://www.youtube.com/watch?v=SeKQSQDUMDQ
+*/
 function displayDate() {
     let date = new Date()
     date = date.toString().split(" ")
