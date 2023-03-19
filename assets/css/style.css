@@ -129,6 +129,22 @@
   color: #da83ae;
   border: #222222 solid 3px;
 }
+/*404 page styling*/
+.message {
+  text-align: center;
+  font-family: roboto;
+}
+.message p {
+  line-height: 50px;
+}
+.message a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 20px;
+}
+.message a:hover {
+  color: #da83ae;
+}
 /* Media queries for mobile tablet and smaller screens*/
 /* for screens size from 605px wide and down */
 @media screen and (max-width: 605px) {
