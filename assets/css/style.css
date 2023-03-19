@@ -6,31 +6,28 @@
     margin: 0;
     box-sizing: border-box;
  }
-
+ /*Font family and background gradient*/ 
  body {
     font-family: 'Nanum Pen Script', cursive;
     background-image: linear-gradient(to right,#d09fe9, #d2ffcf, 
     #da83ae);
     color: #222222;
  }
-
  h1 {
   font-size: 65px;
   padding: 30px 0 0 30px;
  }
-
+/*Styling of input field and add button*/
  .container {
    margin: auto;
    margin-top: 120px;
    width: 50%;
    border-radius: 6px;
  }
-
  #newitem {
    position: relative;
    padding-bottom: 30px;
  }
-
  #newitem input {
    position: relative;
    width:75%;
@@ -43,7 +40,6 @@
    text-transform: capitalize;
    margin-bottom: 30px;
 }
-
 #newitem button {
     position: relative;
     float:right;
@@ -57,13 +53,12 @@
     font-family: 'Nanum Pen Script', cursive;
     font-size: 25px;
 }
-
 #newitem button:hover {
     background-color: #d2ffcf;
     color: #d09fe9;
     border: #222222 solid 3px;
 }
-
+/*Styling of to do list items*/
 .item {
   display: flex;
   justify-content: space-between;
@@ -100,7 +95,6 @@
   text-align: center;
   justify-content: center;
   line-height: 40px;
-
 }
 .modaltitle {
   font-size: 45px;
