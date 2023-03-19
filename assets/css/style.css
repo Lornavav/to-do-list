@@ -12,6 +12,7 @@
     background-image: linear-gradient(to right,#d09fe9, #d2ffcf, 
     #da83ae);
     color: #222222;
+    cursor: pointer;
  }
  h1 {
   font-size: 65px;
@@ -40,6 +41,9 @@
    text-transform: capitalize;
    margin-bottom: 30px;
 }
+#newitem input:focus {
+  border: #222222 solid 3px;
+}
 #newitem button {
     position: relative;
     float:right;
@@ -52,6 +56,7 @@
     border-radius: 6px;
     font-family: 'Nanum Pen Script', cursive;
     font-size: 25px;
+    cursor: pointer;
 }
 #newitem button:hover {
     background-color: #d2ffcf;
@@ -71,6 +76,7 @@
   margin-bottom: 10px;
   padding: 10px;
   width: 100%;
+  cursor: pointer;
 }
 #date {
   font-size: 50px;
