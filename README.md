@@ -24,37 +24,45 @@ The goal of this application is to offer users a way of managing their tasks on 
 
 * Surface
 
-### Wireframes
+## Wireframes
 
-Mobile wireframes with modal and with modal closed.
+* Mobile wireframes with modal and with modal closed.
 
 ![Mobile wireframes](documentation/images/mobile_wireframes.png)
 
-Tablet wireframes with modal and with modal closed.
+* Tablet wireframes with modal and with modal closed.
 
 ![Tablet wireframes](documentation/images/tablet_wireframes.png)
 
-Desktop wireframes with modal and with modal closed.
+* Desktop wireframes with modal and with modal closed.
 
 ![Desktop modal](documentation/images/desktop_popup_wireframe.png)
 
 ![Desktop wireframe](documentation/images/desktop_wireframe.png)
 
-### Design Choices
+## Design Choices
 
 * Colour Scheme
 
+I got the inspiration for a gradiant backgorund scheme from [Web Dev Tutorials](https://www.youtube.com/watch?v=H5tuwAO-_Kg). I just played around with some hex codes from there and came up with this scheme.
+
+![Colour scheme](documentation/images/colour_scheme.png)
+
 * Typography
 
-## Features
+I wanted the font to look like handwriting so that it would like a traditional style list. Like one you would create with a pen and paper. Using google fonts I discovered Nanum Pen Script.
 
-### Existing Features
+![Typography screenshot](documentation/images/typography_screenshot.PNG)
 
-### Future Features
+### Features
 
-### Testing
+## Existing Features
 
-## Validator Testing
+## Future Features
+
+## Testing
+
+### Validator Testing
 
 ![Jshint validation](documentation/images/jshint_validation.png)
 
@@ -64,7 +72,7 @@ Desktop wireframes with modal and with modal closed.
 
 ![Accessibility report](documentation/images/wave_accessibility_report.png)
 
-## Mannual testing
+### Mannual testing
 
 ## Bugs
 
@@ -74,10 +82,10 @@ Desktop wireframes with modal and with modal closed.
 
 ## Credit
 
-## Content
+### Content
 
 ## Technologies Used
 
-### Languages
+## Languages
 
-### Frameworks and Tools
+## Frameworks and Tools
