@@ -104,7 +104,7 @@
 }
 .modaltitle {
   font-size: 45px;
-  color: #da83ae;
+  color: #222222;
   margin: 0;
 }
 .info p {
@@ -115,12 +115,12 @@
   text-decoration: none;
   position: relative;
   margin: 10px auto;
-  background-color: #da83ae;
+  background-color: white;
   text-decoration: none;
   border-radius: 6px;
   font-size: 25px;
-  border: #222222 solid 3px;
-  color: white;
+  border: #da83ae solid 3px;
+  color: #222222;
   cursor: pointer;
   padding: 5px;
 }

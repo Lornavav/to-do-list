@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A to do list application where you can type in your to do task which will populate a list.">
+    <meta name="keywords" content="tasks, to do list, lists">
     <!--css file-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>To Do List</title>
@@ -15,7 +17,8 @@
     <!--Container for to do input field and add button-->
     <div class="container">
         <div id="newitem">
-             <input id="input" type="text" placeholder="Add to do item...">
+             <input id="input" type="text" placeholder="Add to do item..."
+             aria-label="Enter in to do item and click the add button to add item to the list.">
              <button onclick="addItem()">Add</button>
         </div>
     </div>
