@@ -42,33 +42,41 @@ The goal of this application is to offer users a way of managing their tasks on 
 
 ## Design Choices
 
-* Colour Scheme
+### Colour Scheme
 
-I got the inspiration for a gradiant backgorund scheme from [Web Dev Tutorials](https://www.youtube.com/watch?v=H5tuwAO-_Kg). I just played around with some hex codes from there and came up with this scheme.
+I took the inspiration for a gradiant backgorund scheme from [Web Dev Tutorials](https://www.youtube.com/watch?v=H5tuwAO-_Kg). I just played around with some hex codes from there and came up with this scheme.
 
 ![Colour scheme](documentation/images/colour_scheme.png)
 
-* Typography
+### Typography
 
 I wanted the font to look like handwriting so that it would like a traditional style list. Like one you would create with a pen and paper. Using google fonts I discovered Nanum Pen Script.
 
 ![Typography screenshot](documentation/images/typography_screenshot.PNG)
 
-### Features
+## Features
 
-## Existing Features
+### Existing Features
 
-## Future Features
+### Future Features
 
 ## Testing
 
 ### Validator Testing
 
+## JSHint Validation
+
 ![Jshint validation](documentation/images/jshint_validation.png)
+
+## CSS Jigsaw Validation
 
 ![CSS validation](documentation/images/css_jigsaw_validation.png)
 
+## HTML W3C Validation
+
 ![HTML validation](documentation/images/html_w3c_validation.png)
+
+## Wave Accessibility Validation
 
 ![Accessibility report](documentation/images/wave_accessibility_report.png)
 
