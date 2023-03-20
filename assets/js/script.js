@@ -1,10 +1,12 @@
 /* jshint esversion: 6 */
 
 //Variables for adding list items and removing list items
+
 let tasks = document.getElementById("newitem");
 let input = document.getElementById("input");
 
 //Event listener when enter key is pressed
+
 input.addEventListener("keydown", function(event){
     if(event.key === "Enter")
     addItem();
