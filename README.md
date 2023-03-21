@@ -12,6 +12,14 @@ The goal of this application is to offer users a way of managing their tasks on 
 
 ## User Stories
 
+ * As a user I want to see the current date displayed when i visit the to do application.
+ * As a user I want to be able to input a to do item into the input field and click on the add button.
+ * As a user after I have input a to do item and clicked 'add' I want to see my to do item populate in a list below the input field.
+ * As a user if i click 'add' without entering a to iteminto the input field I want to see an alert message.
+ * As a user when I have completed a to do item I want to click it and see a line through it.
+ * As a user when I click the 'x' on a to item I want the item to be removed from the screen.
+ 
+
 ## UX
 
 * Strategy
@@ -24,35 +32,28 @@ The goal of this application is to offer users a way of managing their tasks on 
 
 * Surface
 
+    * Colour Scheme
+
+    I took the inspiration for a gradiant backgorund scheme from [Web Dev Tutorials](https://www.youtube.com/watch?v=H5tuwAO-_Kg). I just played around with some hex codes from there and came up with this scheme.
+    
+    ![Colour scheme](documentation/images/colour_scheme.png)
+
+    * Typography 
+
+    I wanted the font to look like handwriting so that it would like a traditional style list. Like one you would create with a pen and paper. Using google fonts I discovered Nanum Pen Script.
+
+    ![Typography screenshot](documentation/images/typography_screenshot.PNG)
+    
+
 ## Wireframes
 
-* Mobile wireframes with modal and with modal closed.
+* [Mobile wireframes](documentation/images/mobile_wireframes.png)
 
-![Mobile wireframes](documentation/images/mobile_wireframes.png)
+* [Tablet wireframes](documentation/images/tablet_wireframes.png)
 
-* Tablet wireframes with modal and with modal closed.
+* [Desktop modal wireframe](documentation/images/desktop_popup_wireframe.png)
 
-![Tablet wireframes](documentation/images/tablet_wireframes.png)
-
-* Desktop wireframes with modal and with modal closed.
-
-![Desktop modal](documentation/images/desktop_popup_wireframe.png)
-
-![Desktop wireframe](documentation/images/desktop_wireframe.png)
-
-## Design Choices
-
-### Colour Scheme
-
-I took the inspiration for a gradiant backgorund scheme from [Web Dev Tutorials](https://www.youtube.com/watch?v=H5tuwAO-_Kg). I just played around with some hex codes from there and came up with this scheme.
-
-![Colour scheme](documentation/images/colour_scheme.png)
-
-### Typography
-
-I wanted the font to look like handwriting so that it would like a traditional style list. Like one you would create with a pen and paper. Using google fonts I discovered Nanum Pen Script.
-
-![Typography screenshot](documentation/images/typography_screenshot.PNG)
+* [Desktop wireframe](documentation/images/desktop_wireframe.png)
 
 ## Features
 
