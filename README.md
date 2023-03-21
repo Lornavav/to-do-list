@@ -89,7 +89,7 @@ The goal of this application is to offer users a way of managing their tasks on 
 
    * An alert message will be displayed if the user clicks 'Ad' or presses 'Enter' without entering any text into the input field.
 
-  ![Alert](documentation/images/alert_message.PNG)
+  ![Alert](documentation/images/alert_message.png)
 
 ### Future Features
 
@@ -129,7 +129,7 @@ The goal of this application is to offer users a way of managing their tasks on 
 
 * Mannual testing based on user stories 
 
-![Manual testing](documentation/images/manual_testing.PNG)
+![Manual testing](documentation/images/manual_testing.png)
 
   
 
