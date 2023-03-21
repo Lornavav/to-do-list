@@ -15,7 +15,8 @@ The goal of this application is to offer users a way of managing their tasks on 
  * As a user I want to see the current date displayed when i visit the to do application.
  * As a user I want to be able to input a to do item into the input field and click on the add button.
  * As a user after I have input a to do item and clicked 'add' I want to see my to do item populate in a list below the input field.
- * As a user if i click 'add' without entering a to iteminto the input field I want to see an alert message.
+ * As a user I want to be able to press the 'Enter' key on keyboard to add my to do item to the list.
+ * As a user if i click 'add' without entering a to item into the input field I want to see an alert message.
  * As a user when I have completed a to do item I want to click it and see a line through it.
  * As a user when I click the 'x' on a to item I want the item to be removed from the screen.
  
@@ -58,6 +59,36 @@ The goal of this application is to offer users a way of managing their tasks on 
 ## Features
 
 ### Existing Features
+
+* Modal
+ 
+ * The modal will appear as soon as the user tries to access the application. The modal has an ovelay which shields the main page for the user. 
+ * The user must read the instructions and click on the 'Get Started' button in order to view the application page.
+ * The modal will reappaer each time the page is refreshed.
+
+ ![Modal](documentation/images/modal.png)
+
+* Header
+ 
+ * The header sections shows the user the title of the application. It also displays the current date.
+
+ ![Header](documentation/images/header.png)
+
+* To do input and task list
+ 
+ * Here we will see the input box that the user can type the to item into.
+ * The 'Add' button which will the the item to a to do list.
+ * The user can also press the 'Enter' key on a keybpard to add the task to the to do list.
+ * The user can click on a to do item and it will strike through the text meaning the task has been completed.
+ * The user can press the 'X' button and this will remove the task from the screen.
+
+ ![Task List](documentation/images/task_list.png)
+
+ * Alert Message
+
+  * An alert message will be displayed if the user clicks 'Ad' or presses 'Enter' without entering any text into the input field.
+
+  ![Alert](documentation/images/alert_message.PNG)
 
 ### Future Features
 
