@@ -18,30 +18,28 @@ The goal of this application is to offer users a way of managing their tasks on 
  * As a user I want to see a 'Get Started' button on my modal and when I click it the modal will disappear.
  * As a user I want to see the current date displayed when I visit the to do application.
  * As a user I want to be able to input a to do item into the input field and click on the 'Add' button.
- * As a user after I have input a to do item and clicked 'add' I want to see my to do item populate in a list below the input field.
- * As a user I want to be able to press the 'Enter' key on keyboard to add my to do item to the list.
- * As a user if i click 'add' without entering a to item into the input field I want to see an alert message.
+ * As a user after I have input a to do item and clicked 'Add' I want to see my to do item populate in a list below the input field.
+ * As a user I want to be able to press the 'Enter' key on a keyboard to add my to do item to the list.
+ * As a user if i click 'Add' without entering a to item into the input field I want to see an alert message.
  * As a user when I have completed a to do item, I want to click it and see a line through it.
  * As a user when I click the 'x' on a to item I want the item to be removed from the screen.
  
-## UX
+### Design Choices
 
-* Design Choices
+ * Colour Scheme
 
-    * Colour Scheme
-
-    I took the inspiration for a gradient background scheme from [Web Dev Tutorials](https://www.youtube.com/watch?v=H5tuwAO-_Kg). I just played around with some hex codes from there and came up with this scheme.
+  I took the inspiration for a gradient background scheme from [Web Dev Tutorials](https://www.youtube.com/watch?v=H5tuwAO-_Kg). I just played around with some hex codes from there and came up with this colour scheme.
     
-    ![Colour scheme](documentation/images/colour_scheme.png)
+  ![Colour scheme](documentation/images/colour_scheme.png)
 
-    * Typography 
+ * Typography 
 
-    I wanted the font to look like handwriting so that it would like a traditional style list. Like one you would create with a pen and paper. Using google fonts I discovered Nanum Pen Script.
+  I wanted the font to look like handwriting so that it would be like a traditional style list. Like one you would create with a pen and paper. By using google fonts I discovered Nanum Pen Script.
 
-    ![Typography screenshot](documentation/images/typography_screenshot.png)
+  ![Typography screenshot](documentation/images/typography_screenshot.png)
     
 
-## Wireframes
+### Wireframes
 
 * [Mobile wireframes](documentation/images/mobile_wireframes.png)
 
@@ -136,8 +134,8 @@ The goal of this application is to offer users a way of managing their tasks on 
   * I logged into GitHub.
   * From the correct repository I selected the settings icon.
   * I selected 'pages' from the code and automation section on the left-hand side.
-  * From the 'build and deployment' section I selected 'Deploy from a branch'.
-  * From the 'branch' section I selected 'main' from the branch drop down list.
+  * From the 'Build and deployment' section I selected 'Deploy from a branch'.
+  * From the 'Branch' section I selected 'Main' from the branch drop down list.
   * I made sure that the /(root) folder was selected and pressed save.
   * I refreshed the page and underneath 'GitHub Pages' I could see the link to the live site.
 
