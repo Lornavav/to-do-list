@@ -103,23 +103,23 @@ The goal of this application is to offer users a way of managing their tasks on 
 
 ### Manual testing
 
-* Site responsiveness testing with supporting screenshots using [Responsive Design Testing](https://responsivedesignchecker.com/)
+Site responsiveness testing with supporting screenshots using [Responsive Design Testing](https://responsivedesignchecker.com/)
 
-  * [iPhone 3/4/4S Modal](documentation/images/iphone_3_4_4s_responsiveness.png)
+* [iPhone 3/4/4S Modal](documentation/images/iphone_3_4_4s_responsiveness.png)
 
-  * [iPhone 3/4/4S Main](documentation/images/iphone_3_4_4s_responsiveness_main.png)
+* [iPhone 3/4/4S Main](documentation/images/iphone_3_4_4s_responsiveness_main.png)
 
-  * [iPad Mini Modal](documentation/images/apple_mini_responsivness.png)
+* [iPad Mini Modal](documentation/images/apple_mini_responsivness.png)
 
-  * [iPad Mini Modal](documentation/images/apple_mini_responsivness_2.png)
+* [iPad Mini Modal](documentation/images/apple_mini_responsivness_2.png)
 
-  * [22" Desktop Modal](documentation/images/22inch_desktop_responsiveness.png)
+* [22" Desktop Modal](documentation/images/22inch_desktop_responsiveness.png)
 
-  * [22" Desktop Main](documentation/images/22inch_desktop_responsiveness-2.png)
+* [22" Desktop Main](documentation/images/22inch_desktop_responsiveness-2.png)
 
-* All default devices found on Chrome dev tools were all tested on, and all were compatable with the application.
+Note: All default devices found on Chrome dev tools were all tested on, and all were compatable with the application.
 
-* Manual testing based on user stories 
+### Manual testing based on user stories 
 
 ![Manual testing](documentation/images/manual_testing.png)
 
